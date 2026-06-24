@@ -1,0 +1,16 @@
+world_name: "qr_whiteboard_model_only"
+
+origin:
+  latitude: 40.4405287
+  longitude: -3.6898277
+  altitude: 100.0
+
+drones:
+  - model_type: "x500"
+    model_name: "drone0"
+    flight_time: 60
+    xyz: [-3.0, 0.0, 0.5]
+    rpy: [0.0, 0.0, 0.0]
+    payload: []
+
+objects: []

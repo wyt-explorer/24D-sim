@@ -1,0 +1,17 @@
+material QRWhiteboard/Texture
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      cull_hardware none
+      cull_software none
+      texture_unit
+      {
+        texture qr_board.png
+        filtering none
+      }
+    }
+  }
+}

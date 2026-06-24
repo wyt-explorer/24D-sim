@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>as2_qr_mission</name>
+  <version>0.0.0</version>
+  <description>
+    QR code scanning mission for Aerostack2 Gazebo simulation.
+  </description>
+
+  <maintainer email="aerostack2@example.com">Aerostack2</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <exec_depend>as2_python_api</exec_depend>
+  <exec_depend>as2_gazebo_assets</exec_depend>
+  <exec_depend>as2_platform_gazebo</exec_depend>
+  <exec_depend>as2_state_estimator</exec_depend>
+  <exec_depend>as2_motion_controller</exec_depend>
+  <exec_depend>as2_behaviors_platform</exec_depend>
+  <exec_depend>as2_behaviors_motion</exec_depend>
+
+  <exec_depend>qr_whiteboard_portable</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,22 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+
+/**/platform:
+  ros__parameters:
+    use_sim_time: true
+    cmd_freq: 100.0
+    info_freq: 10.0
+
+/**/state_estimator:
+  ros__parameters:
+    use_sim_time: true
+    plugin_name: "ground_truth"
+    use_gazebo_tf: true
+    use_gps: false
+    set_origin_on_start: true
+
+/**/controller_manager:
+  ros__parameters:
+    use_sim_time: true
+    plugin_name: "pid_speed_controller"
