@@ -1,6 +1,6 @@
 # Aerostack2 QR Whiteboard Drone Demo
 
-Sunny&Charlie Hu
+Sunny(Very Beautiful)&Charlie Hu(Handsome)
 This repository contains a ROS2 Humble demo where an Aerostack2 x500 drone flies in front of a QR-code whiteboard in Gazebo. The drone visits six QR-code positions in sequence, prints each QR code's world coordinate, turns on a simulated laser signal, and briefly highlights the QR-code center.
 
 ## 1. What this repository contains
